@@ -1,0 +1,79 @@
+/* CSS reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+.profile-card {
+  width: 480px;
+  max-width: calc(100vw - 10px);
+  background-color: rgba(255,255,255,.9);
+  border-radius: 10px;
+  box-shadow: hsla(1, 0%, 0%, 1) 20px 10px 40px;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('https://norber.eu/photos/nevjegy-hatter.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+.head, .content {
+  width: 90%;
+  margin: 0 auto;
+}
+img {
+  width: 120px;
+  height: 120px;
+  border-radius: 35px;
+  padding: 2px;
+  background-color: hsla(240, 100%, 65%,.8);
+  transition: all 0.5s ease-in-out;
+  filter: grayscale(50%);
+}
+img:hover {
+  transform: scale(1.1);
+  filter: grayscale(10%);
+}
+.head, .links {
+  text-align: center;
+}
+.profile-img {
+  margin-top: -30px
+}
+.icon {
+  color: #666;
+  transform: scale(2.5);
+  padding: 18px
+}
+.head, .about {
+  margin-bottom: 10%;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  display: inline;
+}
+.content {
+  padding-top: 5%;
+  border-top: 1px solid hsla(0, 0%, 30%, .8);
+}
+body {
+    font-family: 'Gotu';
+}
+h1 {
+  font-size: 40px
+}
+h2 {
+  font-size: 20px
+}
+.norber {
+  font-size: 22px
+}
+section {
+  padding-bottom: 8%
+}

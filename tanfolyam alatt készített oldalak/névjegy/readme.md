@@ -1,0 +1,1 @@
+Saját névjegyem amit a tanfolyam alatt már saját kezűleg készítettem.
